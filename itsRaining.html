@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pleasant Day</title>
+    <link rel="icon" href="wtd.png">
+    <link rel="stylesheet" href="ItStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mainbx">
+        <div class="ctrbx">
+            <audio id="audio">
+                <source src="0.mp4">
+                <p>Your browser doesnt support this</p>
+            </audio>
+            <button class="play" onclick="playaudio()" id="demo"></button>
+            <script>
+                var music = document.getElementById('audio');
+                 function playaudio() {
+                    if (music.paused) {
+                        music.play();
+                        demo.className = "";
+                        demo.className = "pause";
+                    } else {
+                        music.pause();
+                        demo.className = "";
+                        demo.className = "play";
+                }}
+            </script>
+            
+            
+            
+            <h1><span>P</span>LEASANT <span>D</span>AY</h1>
+            <p>RAIN SOUNDS FOR A PLEASANT DAY</br>
+            HELPS FOR REFRESHING MIND</p>
+            <div class="socmed">
+                <p> Connect me on:</p> </br>
+                <a href="https://instagram.com/_.samsunil?utm_medium=copy_link"><img src="ig.png" alt="ig id"></a>
+                <a href=""><img src="fb.png" alt="ig id"></a> 
+                <a href=""><img src="tw.png" alt="ig id"></a>
+             </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

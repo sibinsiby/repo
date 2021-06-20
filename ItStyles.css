@@ -1,0 +1,99 @@
+body
+{
+    background: mediumpurple;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.mainbx
+{
+    box-sizing: border-box;
+    border: 0px solid black;
+    width: 100%;
+    height: 670px;
+}
+
+.ctrbx
+{
+    box-sizing: border-box;
+    border: 0px solid black;
+    height: 600px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 80px;
+}
+
+
+#demo{
+    height:130px;
+    width: 130px;
+    border: none;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline:none;
+    margin-left: 180px;
+    margin-top: 20px;
+  }
+  
+
+.play
+{
+    background: url('play4.png') ;
+    border-radius:50%;
+    animation: animate 5s linear infinite;
+    cursor:pointer;
+}
+    
+.pause
+{
+    background: url('pause4.png') ;
+    border-radius:50%;
+    animation: animate 5s linear 1;
+    cursor:pointer;
+}
+
+.volume
+{
+    margin-left: 180px;
+}
+
+h1
+{
+    font-size: 45px;
+    font-family: 'Antic Slab', serif;
+    text-align: center;
+    color: white;
+}
+
+h1 span
+{
+    font-size: 55px;
+}
+
+p
+{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
+.socmed
+{
+    box-sizing: border-box;
+    border: 0px solid black;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+.socmed a img
+{
+    border-radius: 50%;
+}
+    
